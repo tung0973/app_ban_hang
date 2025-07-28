@@ -1,6 +1,5 @@
 from db import get_conn
 from debt import add_debt
-
 from datetime import datetime
 
 def create_order(customer, items, total):
